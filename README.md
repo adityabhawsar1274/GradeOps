@@ -16,7 +16,7 @@ Automates handwritten exam grading with OCR, agentic LLM rubric evaluation, plag
 | Plagiarism flags | Cross-submission similarity detection |
 | TA dashboard | Side-by-side review + keyboard shortcuts (`A` approve, `O` override) |
 
-## Tech Stack (CV-friendly)
+## Tech Stack 
 
 - **Frontend:** React 18, TypeScript, Tailwind CSS, Vite
 - **Backend:** Python, FastAPI, SQLAlchemy, PostgreSQL
@@ -63,32 +63,3 @@ cd frontend
 npm install
 npm run dev
 ```
-
-## API Highlights
-
-- `POST /api/auth/login` — JWT login
-- `POST /api/exams/demo` — Seed demo exam with graded submissions
-- `POST /api/exams/{id}/process-sync` — Run OCR + grading pipeline
-- `GET /api/review/queue` — TA review queue
-- `POST /api/review/{id}/action` — Approve or override grade
-
-## OpenAI Integration (optional)
-
-Set in `.env`:
-
-```
-USE_MOCK_AI=false
-OPENAI_API_KEY=sk-...
-```
-
-## Tests
-
-```bash
-cd backend && pytest tests/ -v
-```
-
-## CV Bullet Points
-
-- Built full-stack HITL grading system with React + FastAPI + PostgreSQL
-- Implemented LangGraph agentic pipeline for rubric-based partial credit grading
-- Designed RBAC, OCR ingestion, plagiarism detection, and keyboard-driven TA workflow
