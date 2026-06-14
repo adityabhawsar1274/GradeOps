@@ -1,0 +1,16 @@
+{
+  "questions": [
+    {
+      "id": "Q1",
+      "prompt": "Explain Newton's second law with an example.",
+      "max_points": 10,
+      "criteria": ["force equals mass times acceleration", "example with object"]
+    },
+    {
+      "id": "Q2",
+      "prompt": "Define work done in physics.",
+      "max_points": 10,
+      "criteria": ["work is force times displacement", "joule unit"]
+    }
+  ]
+}

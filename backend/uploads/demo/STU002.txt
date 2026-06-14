@@ -1,0 +1,1 @@
+F=ma. Force equals mass times acceleration. Example: car acceleration.

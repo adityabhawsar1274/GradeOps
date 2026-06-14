@@ -1,0 +1,1 @@
+Force equals mass times acceleration. Example: pushing a box.
